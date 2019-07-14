@@ -1,13 +1,11 @@
-// Update with your config settings.
-
 module.exports = {
 
   development: {
     client: 'mysql',
     connection: {
-      host: '127.0.01',
+      host: 'localhost',
       user: 'root', 
-      password: '', 
+      password: 'password', 
       database: 'sauti_test0',
       charset: 'utf8'
     }
@@ -16,9 +14,9 @@ module.exports = {
   staging: {
     client: 'mysql',
     connection: {
-      host: '127.0.01',
+      host: 'localhost',
       user: 'root', 
-      password: '', 
+      password: 'password', 
       database: 'sauti_test0',
       charset: 'utf8'
     },
@@ -34,9 +32,9 @@ module.exports = {
   production: {
     client: 'mysql',
     connection: {
-      host: '127.0.01',
+      host: 'localhost',
       user: 'root', 
-      password: '', 
+      password: 'password', 
       database: 'sauti_test0',
       charset: 'utf8'
     },

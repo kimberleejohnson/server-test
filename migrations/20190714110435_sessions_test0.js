@@ -8,8 +8,7 @@ exports.up = function(knex) {
     // Country name 
     sessions 
         .string('country', 100)
-        .notNullable()
-        .unique(); 
+        .notNullable() 
 
     // Product name 
     sessions
